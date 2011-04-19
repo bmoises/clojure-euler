@@ -4,10 +4,14 @@ FIXME: write description
 
 ## Usage
 
-FIXME: write
+To run solutions, run lein repl
+Where N is the problem number
 
-## License
-
-Copyright (C) 2010 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+user=> (require '[problems.problemN :as problemN] :reload)
+nil
+user=> (problemN/solution 1)                              
+Total:  0
+nil
+user=> (problemN/solution 5)
+Total:  3
+nil
