@@ -6,7 +6,7 @@
 	[n]
 	(binding [i 0
 	          results 0]
-	  (while (< i (+ n 1))
+	  (while (< i (+ n))
 	    ( if (or (= (mod i 3) 0) (= (mod i 5) 0))
 	      (set! results (+ results i)))
 	    (set! i (inc i)))
