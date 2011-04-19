@@ -1,6 +1,11 @@
 # clojure-euler
 
-FIXME: write description
+This is my attempt to solve the euler problems using clojure. 
+If anyone comes across this code and thinks that it sucks, well, it probably because i am just learning clojure!
+
+Problems solved
+
+1-2
 
 ## Usage
 
