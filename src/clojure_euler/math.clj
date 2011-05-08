@@ -5,3 +5,7 @@
   (if (= n 1)
     1
     (* n (fac (- n 1)))))
+    
+
+; Taken from programming clojure introduction example
+(def fibs (lazy-cat [1 2] (map + fibs (rest fibs))))
