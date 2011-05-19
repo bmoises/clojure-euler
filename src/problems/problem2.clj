@@ -10,5 +10,4 @@
    By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the 
    sum of the even-valued terms."
   [nthless]
-  (apply + (filter (fn [n] (even? n)) (filter (fn [n] (< n nthless)) (take 40 fibs))))
-  )
+  (apply + (filter (fn [n] (even? n)) (take-while #(< % nthless) fibs))))
