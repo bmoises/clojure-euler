@@ -24,3 +24,5 @@
 	  (find_all my_range 1)
 	)
 )
+
+;; Solution for 1 to 20 -> 232792560
